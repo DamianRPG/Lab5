@@ -11,7 +11,7 @@
 
 # Funcionamiento del código
 
-## main:
+## main
 #### Pseudo código:
 #### Marco de la función:
 #### Descripción detallada:
