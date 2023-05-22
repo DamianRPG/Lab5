@@ -16,13 +16,17 @@
 #### Marco de la función:
 #### Descripción detallada:
 
-## is_buttom_pressed:
+## is_buttom_pressed
 #### Pseudo código:
+![image](https://github.com/DamianRPG/Lab5/assets/126529855/fb5cb752-e150-488d-bb4e-6edd6538a86a)
+
 #### Marco de la función:
 #### Descripción detallada:
 
-## wait:
+## wait
 #### Pseudo código:
+![image](https://github.com/DamianRPG/Lab5/assets/126529855/2b1b15da-3652-42f9-b59f-af3b0dff5963)
+
 #### Marco de la función:
 #### Descripción detallada:
 Consta de 2 ciclos for anidados. 
