@@ -14,6 +14,7 @@
 
 ## main
 #### Pseudo código:
+![image](https://github.com/DamianRPG/Lab5/assets/126529855/2bb44fd1-93ce-4c41-824c-75827e866713)
 
 #### Marco de la función:
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/7812255d-bf72-4a7f-9182-3cdcd0b870a9)
