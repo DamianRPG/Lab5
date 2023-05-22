@@ -25,7 +25,8 @@
 
 ## wait
 #### Pseudo código:
-![image](https://github.com/DamianRPG/Lab5/assets/126529855/2b1b15da-3652-42f9-b59f-af3b0dff5963)
+![image](https://github.com/DamianRPG/Lab5/assets/126529855/f5021e2f-b78c-43c2-b56f-8363b91157c7)
+
 
 #### Marco de la función:
 #### Descripción detallada:
