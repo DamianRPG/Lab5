@@ -20,7 +20,13 @@
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/7812255d-bf72-4a7f-9182-3cdcd0b870a9)
 
 #### Descripción detallada:
-
+Inicia declarando una función contador desde 0.
+Seguido de esto, hará una lectura del botón 1 y 2, no sin antes pasando por la función "is_button_pressed" con la finalidad de eliminar el rebote.
+Una vez leídos y salvados los estados de ambos botones, pasarán por diversos "if´s" para establecer que se debe hacer:
+-Botón 1 = 0 | Botón 2 = 0 | No sucede nada
+-Botón 1 = 1 | Botón 2 = 0 | La cuenta incrementa 1
+-Botón 1 = 0 | Botón 2 = 1 | La cuenta decrementa 1
+-Botón 1 = 1 | Botón 2 = 1 | La cuenta vuelve a 0
 ## is_buttom_pressed
 #### Pseudo código:
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/fb5cb752-e150-488d-bb4e-6edd6538a86a)
