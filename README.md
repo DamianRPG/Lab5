@@ -11,26 +11,26 @@
 
 # Funcionamiento del código
 
-###main:
-#Pseudo código:
-#Marco de la función:
-#Descripción detallada:
+### main:
+# Pseudo código:
+# Marco de la función:
+# Descripción detallada:
 
-###is_buttom_pressed:
-#Pseudo código:
-#Marco de la función:
-#Descripción detallada:
+### is_buttom_pressed:
+# Pseudo código:
+# Marco de la función:
+# Descripción detallada:
 
-###wait:
-#Pseudo código:
-#Marco de la función:
-#Descripción detallada:
+### wait:
+# Pseudo código:
+# Marco de la función:
+# Descripción detallada:
 Consta de 2 ciclos for anidados. 
 
-###Diagrama del circuito:
+### Diagrama del circuito:
 ![ADD_page-0001](https://github.com/DamianRPG/Lab5/assets/126529855/9685ae01-5383-47ab-bb22-805555e3bf0d)
 
-#Descricpión de armado:
+# Descricpión de armado:
 Puertos de entrada: PA10 y PA11
 Puertos de salida: PA0 - PA9
 Una vez definidos los puertos de salida, estos harán conexión con la parte positiva de los leds (el ánodo); por otra parte, cada una de sus partes negativas (el cátodo), tendrán una conexión a una resistencia de 220OMS, esto con el fin de evitar que el sistema sufra sobrecargas. El pin G (tierra) alimentará a estos resistores.
