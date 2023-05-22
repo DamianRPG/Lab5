@@ -6,14 +6,17 @@
 
 ## El código utilizado consta de 3 funciones:
 1) main: Encargada de leer el estado de los botones y escribir en los leds según el tipo de señal.
-2) is_buttom_pressed: relee el estado del botón "x" número de veces para verificar sí su estado es constante.
-3) wait: simula esperar 255 milisegundos. 
+2) is_buttom_pressed: Relee el estado del botón "x" número de veces para verificar sí su estado es constante.
+3) wait: Simula esperar 255 milisegundos. 
+4) setup: Función encargada de configurar los puertos de la "blue pill"
 
 # Funcionamiento del código
 
 ## main
 #### Pseudo código:
+
 #### Marco de la función:
+
 #### Descripción detallada:
 
 ## is_buttom_pressed
@@ -27,10 +30,16 @@
 #### Pseudo código:
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/f5021e2f-b78c-43c2-b56f-8363b91157c7)
 
-
 #### Marco de la función:
 #### Descripción detallada:
 Consta de 2 ciclos for anidados. 
+
+## setup
+#### Pseudo código:
+![image](https://github.com/DamianRPG/Lab5/assets/126529855/7b23c2e4-73ba-43f6-9811-1a93f2bbf809)
+
+#### Marco de la función:
+#### Descricpión detallada:
 
 ## Diagrama del circuito:
 ![ADD_page-0001](https://github.com/DamianRPG/Lab5/assets/126529855/9685ae01-5383-47ab-bb22-805555e3bf0d)
