@@ -27,6 +27,7 @@ Una vez leídos y salvados los estados de ambos botones, pasarán por diversos "
 - Botón 1 = 1 | Botón 2 = 0 | La cuenta incrementa 1.
 - Botón 1 = 0 | Botón 2 = 1 | La cuenta decrementa 1.
 - Botón 1 = 1 | Botón 2 = 1 | La cuenta vuelve a 0.  
+  
 No obstante, sí nos topamos con el caso de tener una cuenta negativa, para poder representarlo visualmente en los leds, bastará con hacer un "and" con al cuenta actual que tenemos y una constante, que para este caso es 1023 (al ser 10 leds, este número estará representado por un 0011 1111 1111 binario). Dandonos así un resultado en complemento a 2.
 
 ## is_buttom_pressed
