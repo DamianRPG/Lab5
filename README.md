@@ -28,6 +28,11 @@
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/7c4147e0-021f-45b6-8f03-765ce838e5b2)
 
 #### Descripción detallada:
+Función encargada de verificar sí el valor del botón que se está leyendo es constante.
+Inicialmente verifica el estado de la señal, donde en caso de ser negativa, retorna un falso y finaliza la invoación.
+En caso contrario, inicia un ciclo for, en el cual se verificará como maximo 10 veces el estado del mismo. Con cada ciclo se iniciará llamando a la función wait. Seguido de una lectura del mismo botón, donde en caso de estar encendido, sumará un 1 a una variable llamada "counter", mientras que, sí su lectura nos dice que está sin oprimir, reiniciará en 0 la variable.
+Sí la variable "counter" supera la suma en 4 unidades (traducidas como 4 lecturas donde el botón está presionado), regresará un verdadero, dandonos a entender que el botón está presionado.
+Sí la variable por el contrarió, no supera el mismo valor y el ciclo termina, nos dará a entender que el botón no está siendo presionado; límitando así el rebote.
 
 ## wait
 #### Pseudo código:
@@ -37,7 +42,7 @@
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/c2fbd1c3-83cc-4899-a01c-100b4d61f14d)
 
 #### Descripción detallada:
-Consta de 2 ciclos for anidados. 
+Consta de 2 ciclos for anidados. El primero tiene como límite 5, que son los ms (milisegundos) que recibe desde la función "is_button_pressed", mientras que el segúndo consta con un límite de 255 ticks. Esto con el fin de simular una espera de 5 milisegundos por parte del microcontrolador. Sin embargo, estos valores siguen causando demasiado "rebote", por lo cual fueron modificados de 5 a 50ms y de 255 a 1000 ticks. 
 
 ## setup
 #### Pseudo código:
@@ -47,6 +52,9 @@ Consta de 2 ciclos for anidados.
 ![image](https://github.com/DamianRPG/Lab5/assets/126529855/f88f4771-dab3-4388-a2ba-517e43487a96)
 
 #### Descricpión detallada:
+Inicialmente se configura el reloj del puerto A, este se encuentra en la dirección 0x40021018.
+Por consiguiente se le indica al microcontrolador que sus puertos de salida serán desde el pin A con númeración 0 hasta el 9.
+Finalmente se le indica al mismo que sus puertos de entrada serán el pin A 10 y 11.
 
 ## Diagrama del circuito:
 ![ADD_page-0001](https://github.com/DamianRPG/Lab5/assets/126529855/9685ae01-5383-47ab-bb22-805555e3bf0d)
